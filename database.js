@@ -1,7 +1,4 @@
-// DB password : Ej7SDxIZhUdo4qFj
-// data API Access : https://oraeuxzqkhfaguxmqafc.supabase.co/notes
-
-import { supabase } from "../supabaseClient.js";
+import { supabase } from "./supabaseClient.js";
 
 export async function addShift(shift) {
     let success = false;
